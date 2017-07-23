@@ -1,25 +1,25 @@
-## Deployin PHP Applications
+## Deploying PHP Applications
 
-0-introduction.txt
+0.- Introduction
 
-1-automate.txt
+1.- Automate
 
-2-goals.txt
+2.- Goals
 
-3-environments.txt
+3.- Environments
 
-4-atomic-deploys.txt
+4.- Atomic Deploys
 
-5-tools.txt
+5.- Tools
 
-6-version-control.txt
+6.- Version Control
 
-7-dependencies.txt
+7.- Dependencies
 
-8-database-migrations.txt
+8.- Database Migrations
 
-9-running-tests.txt
+9.- Running Tests
 
-10-logs-and-notifications.txt
+10.- Logs and Notifications
 
-11-conclusion.txt
+11.- Conclusion
