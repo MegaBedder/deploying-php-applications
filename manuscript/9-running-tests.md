@@ -14,7 +14,7 @@ Unit tests are all about finding bugs as soon as possible. It's a kind of first 
 
 ## 9.2 Acceptance testing
 
-In the agile software world we work with specifications and use cases. These will often be transformed into a specification of behavior, or business logic that a certain feature should comply with. Acceptance testing is used if you use behavior driven development (BDD) with tools such as [Behat](http://behat.org/), [PHPSpec](http://www.phpspec.net/), etc. In some cases these tests will use Selenium or Mink to run automated tests against a browser which makes it questionable if it's an acceptance test at that point, in other cases these tests will be quite fast to run. I argue that in cases of automated tests against a browser it's an end-to-end test.
+In the agile software world we work with specifications and use cases. These will often be transformed into a specification of behavior, or business logic that a certain feature should comply with. **Acceptance testing is used if you use behavior driven development (BDD)** with tools such as [Behat](http://behat.org/), [PHPSpec](http://www.phpspec.net/), etc. In some cases these tests will use Selenium or Mink to run automated tests against a browser which makes it questionable if it's an acceptance test at that point, in other cases these tests will be quite fast to run. I argue that in cases of automated tests against a browser it's an end-to-end test.
 
 When performing an acceptance test you're trying to answer the question if the feature was built correctly according to a specification. A test could run against a user story that is converted to the Cucumber language, such as this user registration feature:
 
