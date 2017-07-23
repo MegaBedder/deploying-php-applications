@@ -1,6 +1,6 @@
 # 1. Automate, automate, automate
 
-I want to get this off the bat right away since one of the most crucial ingredients in your deployment process should be to **automate everything** in order to **minimize human errors**. If your deployment process involves manual steps, you're going to have a bad time and shit will hit the inevitable fan. Nobody is perfect. People can, and will, forget if they need to remember.
+I want to get this off the bat right away since one of the most crucial ingredients in your deployment process should be to **automate everything** in order to **minimize human errors**. **If your deployment process involves manual steps, you're going to have a bad time and shit will hit the inevitable fan.** Nobody is perfect. People can, and will, forget if they need to remember.
 
 An automated deployment process will boost the confidence for the person deploying. Knowing that everything will be taken care of is a major contributor to feeling safe during a deploy. Of course other unexpected issues can arise but with a flexible process with logging and notifications you can relax and figure out what went wrong.
 
