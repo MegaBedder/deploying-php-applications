@@ -20,6 +20,12 @@ In chronological order:
 
 ## Changelog
 
+### 1.0.2 - 2017-23-July
+
+* Change TXT extension to Markdown extension
+* Add Syntax highlighting to PHP file
+* Update important parts of the text.
+
 ### 1.0.1 - 2016-04-09
 
 * Updated Phing section to clarify it's a tool written in PHP
