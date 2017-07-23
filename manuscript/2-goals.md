@@ -1,4 +1,4 @@
-# 2. Goals {#chapter-goals}
+# 2. [Goals](#chapter-goals)
 
 I really hope you have decided that you want to improve your deployment process. Well, that is probably why you're reading this book at this moment. You should at this point probably establish a few things. Ask yourself the questions of where you currently are, and where you would like to be. These are essential questions in reaching goals, between here and there you should probably set a few milestones as well since sensing that you achieve something is always important. This is starting to sound like a self help book, but I'm of course talking about where your deployment process is and where you would like it to be.
 
@@ -16,7 +16,7 @@ Do you see the issue at hand here? **Deployment is in most cases an after though
 
 What we need to start with is making the deployment an important part in our applications' lives. It should be there for our application as a supporting and nurturing parent. Would you let your kid go to the first day of school without you being there? Of course not. The school system in the United States is very fond of the *No Child Left Behind Act* and I would like to propose a *No Application Left Behind Act* where no applications is left behind because of a bad deployment process. It might be a bad analogy, since they have a really crappy education system in the United States. But I hope I got my point across anyway.
 
-## 2.2 Maturity {#maturity}
+## 2.2 [Maturity](#maturity)
 
 During your application's lifetime the deployment process will (hopefully and most likely) mature. That it matures is usually a good thing and somewhere along the line someone will probably realize that steps need to be taken to improve it. In which ways it will mature is usually according to the following but maybe not in this particular order:
 
@@ -42,7 +42,7 @@ During your application's lifetime the deployment process will (hopefully and mo
 
 ## 2.3 Agility
 
-The world around us as software developers is getting more and more agile. I'm talking about the world of [agile software development](http://en.wikipedia.org/wiki/Agile_software_development), not the regular outside world where people drink lattes and worry about their mortgages. More and more companies are jumping on the agile bandwagon and for a good reason. There are some practices in this that are great, such as behaviour-driven development (BDD), test-driven development (TDD), pair programming, continuous integration, sprints, user stories and cross-functional teams just to name a few.
+The world around us as software developers is getting more and more agile. I'm talking about the world of [agile software development](http://en.wikipedia.org/wiki/Agile_software_development), not the regular outside world where people drink lattes and worry about their mortgages. More and more companies are jumping on the agile bandwagon and for a good reason. There are some practices in this that are great, such as **behaviour-driven development**(BDD), **test-driven development** (TDD), pair programming, continuous integration, sprints, user stories and cross-functional teams just to name a few.
 
 > Agile: "Characterized by quickness, lightness, and ease of movement; nimble."
 
@@ -103,7 +103,7 @@ One important point to make here is that being able to continuously deploy is li
 
 Technical debt and software rot is something well known and talked about in the developer community, but the concepts can be applied to more than code. We should take care of our deployment just as much as our code. When an ad-hoc deployment process is put in place we immediately start hoarding technical debt and when it starts to rot  we have **shipping rot**. The problem with this kind of debt and rot is that it's more than usually exponential and self enforcing. Have you heard of the [broken window theory](http://en.wikipedia.org/wiki/Broken_windows_theory)? The TL;DR version is: when people see that a building has a broken window, they stop caring less about maintaining it and into the spiral it goes. This applies perfectly to software development where legacy code stays legacy and bad code breeds more bad code. The same goes for our deployment process: a bad process will stay bad or get worse. If you can stop that first window from breaking or quickly repair it, everyone else will care for that it stays that way. Having goals set is a great tool for quickly dealing with that broken window and if you at some point realize that there are many broken windows, you should perhaps fix them all in one big swoop.
 
-## 2.7 The list {#goals-list}
+## 2.7 [The list](#goals-list)
 
 We can condense the goals in to a bullet list since everybody likes a clear and concise list, right? When reading the list, try to reflect on where you currently are at the different goals.
 
