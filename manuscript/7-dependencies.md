@@ -128,7 +128,7 @@ Using `^2` is the same as `~2` and `2.*`.
 
 ### Game of balance
 
-Dealing with version constraints is always a game of balance and the same rules will not apply everywhere. Your applications critical parts should probably never depend on a package with a wide range, but instead be narrow.
+Dealing with version constraints is always a game of balance and the same rules will not apply everywhere. Your applications **critical parts should probably never depend on a package with a wide range**, but instead be narrow.
 
 Let's take a real world example of this that happened to one of the most popular PHP frameworks, Laravel. A security exploit was discovered in version `4.1.25` that needed an urgent fix. The security exploit allowed for hijacking of "remember me"-cookies used in authentication; this allowed the attacker to remain logged in as another user for a very long time. A patch was written and `4.1.26` was released. What was less known to the community was that this patch introduced a non-backwards compatible change. Anyone who had `4.*` or `4.1.*` for example that updated their dependencies would receive the change which broke their entire application. This caused quite an outrage and people were extremely upset, however the intent of the patch was good and it needed a change to the database schema. The people who had `4.1.25` specified as their version constraint could sit back and watch. They could then pull down the latest version in their development environment, update their code and database schema to align with the patch. When they were done they could easily deploy their application when it was working as intended with the patch. This was also true for people using Composer's lock file (more on that later in the chapter).
 
