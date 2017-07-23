@@ -2,7 +2,7 @@
 
 ## Background
 
-The PHP community is in an interesting phase right now and it has for a long time lagged behind on the more traditional software development practices. Practices that have been more or less considered as given in other communities. Continuous integration, package management, dependency injection and adopting object oriented programming to its extent to name a few. But as of PHP 5.3 there are no more excuses to why you can't write modern and clean code. The community have responded to this and a great number of people have stepped forward in supporting this through teaching and building tools for accomplishing these practices.
+The PHP community is in an interesting phase right now and it has for a long time lagged behind on the more traditional software development practices. Practices that have been more or less considered as given in other communities. Continuous integration, package management, dependency injection and adopting object oriented programming to its extent to name a few. But as of **PHP 5.3** there are no more excuses to why you can't write modern and clean code. The community have responded to this and a great number of people have stepped forward in supporting this through teaching and building tools for accomplishing these practices.
 
 Yet we seem to forget deployment in this and I feel it's time to bring it to the table for discussion. There are a lot of great tools and services that aid you out there but few resources are available on how to build, maintain and optimize your deployment process. In this book I hope to shed some light on what is important and how it can be achieved.
 
