@@ -1,6 +1,6 @@
 # 3. Environments
 
-Having multiple environments for your application is essential for quality. Each environment serve a certain purpose and represents a state of your application in some way. When I talk about an environment I mean in which your application lives, that could be separate servers or virtual machines. Having multiple environments running on one machine is not an issue if they are separated but they must be it in some way to prevent them from interfering with eachother. If two of your environments are sharing the same database or cache, you could end up with unexpected results and even create bugs that didn't exist in the first place.
+**Having multiple environments for your application is essential for quality.** Each environment serve a certain purpose and represents a state of your application in some way. When I talk about an environment I mean in which your application lives, that could be separate servers or virtual machines. Having multiple environments running on one machine is not an issue if they are separated but they must be it in some way to prevent them from interfering with eachother. If two of your environments are sharing the same database or cache, you could end up with unexpected results and even create bugs that didn't exist in the first place.
 
 ## 3.1 Repeatable
 
